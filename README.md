@@ -19,14 +19,16 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented required features:
 
-<img src='./gif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./Gif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  LICEcap
 
 ## Notes
 
 • Original code was in a single JS file and had to restructure the code into separate 'client'/'server' folders
+
 • Database implementation was somewhat less complicated
+
 • Fixing routing and file linking functionality as files were restructured and modified was a bit challenging 
 
 ## License
