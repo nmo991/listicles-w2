@@ -21,16 +21,16 @@ const renderHustle = async () => {
         name.textContent = hustle.title
 
         const income = document.createElement('p')
-        income.innerHTML = `<strong>Income: </strong>${hustle.incomeRange}`
+        income.innerHTML = `<strong>Income: </strong>${hustle.incomerange}`
 
         const skillLevel= document.createElement('p')
-        skillLevel.innerHTML = `<strong>Skill Level: </strong>${hustle.skillLevel}`
+        skillLevel.innerHTML = `<strong>Skill Level: </strong>${hustle.skilllevel}`
     
         const timeCommitment= document.createElement('p')
-        timeCommitment.innerHTML = `<strong>Time Commitment: </strong>${hustle.timeCommitment}`    
+        timeCommitment.innerHTML = `<strong>Time Commitment: </strong>${hustle.timecommitment}`    
     
         const location= document.createElement('p')
-        location.innerHTML = `<strong>Location: </strong>${hustle.locationType}`
+        location.innerHTML = `<strong>Location: </strong>${hustle.locationtype}`
         
         const description= document.createElement('p')
         description.innerHTML = `<strong>Description: </strong>${hustle.description}`

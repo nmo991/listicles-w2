@@ -13,10 +13,10 @@ const renderHustles = async () => {
             title.textContent = hustle.title
 
             const income = document.createElement('p')
-            income.innerHTML = `<strong>Income: </strong>${hustle.incomeRange}`
+            income.innerHTML = `<strong>Income: </strong>${hustle.incomerange}`
 
             const skillLevel= document.createElement('p')
-            skillLevel.innerHTML = `<strong>Skill Level: </strong>${hustle.skillLevel}`
+            skillLevel.innerHTML = `<strong>Skill Level: </strong>${hustle.skilllevel}`
             
             const link = document.createElement('a')
             link.textContent = 'View Details >'
